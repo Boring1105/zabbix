@@ -1,3 +1,4 @@
+
 ### 1、下载一键安装脚本
 
 [zabbix-centos8-pgsql.zip](https://www.yuque.com/attachments/yuque/0/2024/zip/26231376/1708493991472-044e4ac7-90ac-4318-be13-9af8be5194b7.zip?_lake_card=%7B%22src%22%3A%22https%3A%2F%2Fwww.yuque.com%2Fattachments%2Fyuque%2F0%2F2024%2Fzip%2F26231376%2F1708493991472-044e4ac7-90ac-4318-be13-9af8be5194b7.zip%22%2C%22name%22%3A%22zabbix-centos8-pgsql.zip%22%2C%22size%22%3A615608437%2C%22ext%22%3A%22zip%22%2C%22source%22%3A%22%22%2C%22status%22%3A%22done%22%2C%22download%22%3Atrue%2C%22taskId%22%3A%22uacf34da8-71ef-4789-b8a9-99acd1589b2%22%2C%22taskType%22%3A%22upload%22%2C%22type%22%3A%22application%2Fzip%22%2C%22__spacing%22%3A%22both%22%2C%22id%22%3A%22ud0287420%22%2C%22margin%22%3A%7B%22top%22%3Atrue%2C%22bottom%22%3Atrue%7D%2C%22card%22%3A%22file%22%7D)
@@ -5,17 +6,16 @@
 
 ### 2、执行命令全自动安装zabbix-server
 
-
-**打开网页输入服务器IP地址访问zabbix**<br />http://IP:8080 或 https://IP:8443<br />
+```bash
+1、下载一键安装脚本
 
 2、执行命令全自动安装zabbix-server
->>>>>>> 1a3622ed8ac6d349def147582c782cce96a6fcd5
+
 unzip zabbix-centos8-pgsql.zip
 
 cd zzabbix-centos8-pgsql
 
 sh autosetup.sh install
-<<<<<<< HEAD
 ```
 
 **打开网页输入服务器IP地址访问zabbix**<br />http://IP:8080 或 https://IP:8443<br />用户名: Admin<br />密码: zabbix<br />**打开网页输入服务器IP地址访问grafana**<br />https://IP:3000<br />用户名: admin<br />密码: admin
@@ -62,5 +62,4 @@ zabbix登录的用户名密码
 
 4、zabbix-server不需要https方式访问，或不需要重定向，注释以下部分即可
 
-![image](https://github.com/Boring1105/zabbix/assets/142970220/a36b5cb6-d7d2-45d8-b7c0-b639dacf85c3)
-
+![image](https://github.com/Boring1105/zabbix/assets/142970220/98f4f2ee-3bc9-4d35-b177-16fbca49d5fb)
