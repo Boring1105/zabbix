@@ -18,7 +18,8 @@ cd zzabbix-centos8-pgsql
 sh autosetup.sh install
 ```
 
-**打开网页输入服务器IP地址访问zabbix**<br />http://IP:8080 或 https://IP:8443<br />用户名: Admin<br />密码: zabbix<br />**打开网页输入服务器IP地址访问grafana**<br />https://IP:3000<br />用户名: admin<br />密码: admin
+**打开网页输入服务器IP地址访问zabbix**<br />http://IP:8080 或 https://IP:8443<br />用户名: Admin<br />密码: zabbix<br />
+**打开网页输入服务器IP地址访问grafana**<br />https://IP:3000<br />用户名: admin<br />密码: admin
 
 <a name="mkdYv"></a>
 
