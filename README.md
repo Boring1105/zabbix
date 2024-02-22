@@ -36,31 +36,3 @@ sh autosetup.sh install
 
 ![image.png](https://cdn.nlark.com/yuque/0/2024/png/26231376/1708494410235-b0539d9a-e41d-4289-bd2c-a00df0869fce.png#averageHue=%23020000&clientId=u0bd75c89-a6f9-4&from=paste&height=312&id=u54bfc446&originHeight=390&originWidth=937&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=37055&status=done&style=none&taskId=u5bb40cd2-d603-4919-9f89-6c4d0204eb4&title=&width=749.6)
 =======
-
-打开网页输入服务器IP地址访问zabbix
-http://IP:8080 或 https://IP:8443
-用户名: Admin
-密码: zabbix
-打开网页输入服务器IP地址访问grafana
-https://IP:3000
-用户名: admin
-密码: admin
-
-3、配置grafana
-设置中文
-
-
-启用zabbix插件
-
-
-
-连接zabbix数据库插件
-
-新建zabbix数据库连接
-http://119.45.47.252:8080/api_jsonrpc.php		URL为zabbix访问地址+api_jsonrpc.php
-
-zabbix登录的用户名密码
-
-4、zabbix-server不需要https方式访问，或不需要重定向，注释以下部分即可
-
-![image](https://github.com/Boring1105/zabbix/assets/142970220/98f4f2ee-3bc9-4d35-b177-16fbca49d5fb)
