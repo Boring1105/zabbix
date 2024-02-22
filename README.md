@@ -66,4 +66,5 @@ zabbix登录的用户名密码
 
 4、zabbix-server不需要https方式访问，或不需要重定向，注释以下部分即可
 
->>>>>>> 1a3622ed8ac6d349def147582c782cce96a6fcd5
+![image](https://github.com/Boring1105/zabbix/assets/142970220/a36b5cb6-d7d2-45d8-b7c0-b639dacf85c3)
+
